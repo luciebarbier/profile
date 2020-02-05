@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap');
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #272343;
+}
+body {
+  background-color: #fffffe;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2d334a;
+}
+
+.container {
+  width: 700px;
+  margin : 40px auto;
+}
+
+.card {
+  text-align: center;
+  background-color: #e3f6f5;
+  border-radius: 4px;
+  padding: 40px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.profile_picture {
+  border-radius: 50%;
+}
+
+.btn-white {
+  color: #ffd803;
+  background-color: #fffffe;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-white:hover {
+  color: #ffd803;
+  border: 2px #ffd803 solid;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.follow_me {
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+.fab {
+  color: #ffd803;
+}
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 20px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.list-inline li:hover {
+  font-size: 35px;
+}
+
+.list-inline {
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
